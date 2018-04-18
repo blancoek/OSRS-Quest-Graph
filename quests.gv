@@ -1,0 +1,234 @@
+digraph G {
+	rankdir=LR;
+	ranksep=3;
+	splines=ortho;
+	{
+		node [style=invis];
+		"Tier 0"->"Tier 1"->"Tier 2"->"Tier 3"->"Tier 4"->"Tier 5"->"Tier 6" [style=invis];
+	}
+	{	// Node Shapes
+		node [shape=none]
+		M1 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Alfred Grimhand's Barcrawl</td><td bgcolor="palegreen"></td></tr></table>>];
+		M12 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">60</td><td bgcolor="aquamarine">Skippy and the Mogres</td><td bgcolor="palegreen">32 Slayer</td></tr></table>>];
+		1 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">45</td><td bgcolor="aquamarine">A Soul's Bane</td><td bgcolor="palegreen"></td></tr></table>>];
+		2 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="3">70</td><td bgcolor="aquamarine" rowspan="3">Big Chompy Bird Hunting</td><td bgcolor="palegreen">30 Cooking</td></tr><tr><td bgcolor="palegreen">5 Fletching</td></tr><tr><td bgcolor="palegreen">30 Ranged</td></tr></table>>];
+		3 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Client of Kourend</td><td bgcolor="palegreen"></td></tr></table>>];
+		4 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">53</td><td bgcolor="aquamarine">Clock Tower</td><td bgcolor="palegreen"></td></tr></table>>];
+		5 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="4">51</td><td bgcolor="aquamarine" rowspan="4">Cold War</td><td bgcolor="palegreen">30 Agility</td></tr><tr><td bgcolor="palegreen">34 Construction</td></tr><tr><td bgcolor="palegreen">30 Crafting</td></tr><tr><td bgcolor="palegreen">10 Hunter</td></tr></table>>];
+		6 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Cook's Assistant</td><td bgcolor="palegreen"></td></tr></table>>];
+		7 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Death Plateau</td><td bgcolor="palegreen"></td></tr></table>>];
+		8 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">27</td><td bgcolor="aquamarine">Demon Slayer</td><td bgcolor="palegreen"></td></tr></table>>];
+		9 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Doric's Quest</td><td bgcolor="palegreen"></td></tr></table>>];
+		10 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">19</td><td bgcolor="aquamarine">Druidic Ritual</td><td bgcolor="palegreen"></td></tr></table>>];
+		11 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Dwarf Cannon</td><td bgcolor="palegreen"></td></tr></table>>];
+		12 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">13</td><td bgcolor="aquamarine">Eagle's Peak</td><td bgcolor="palegreen">27 Hunter</td></tr></table>>];
+		13 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="3">35</td><td bgcolor="aquamarine" rowspan="3">Elemental Workshop I</td><td bgcolor="palegreen">20 Crafting</td></tr><tr><td bgcolor="palegreen">20 Mining</td></tr><tr><td bgcolor="palegreen">20 Smithing</td></tr></table>>];
+		14 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="4"></td><td bgcolor="aquamarine" rowspan="4">Enakhra's Lament</td><td bgcolor="palegreen">50 Crafting</td></tr><tr><td bgcolor="palegreen">45 Firemaking</td></tr><tr><td bgcolor="palegreen">39 Magic</td></tr><tr><td bgcolor="palegreen">43 Prayer</td></tr></table>>];
+		15 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">22</td><td bgcolor="aquamarine">Ernest the Chicken</td><td bgcolor="palegreen"></td></tr></table>>];
+		16 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="4">170</td><td bgcolor="aquamarine" rowspan="4">Family Crest</td><td bgcolor="palegreen">40 Crafting</td></tr><tr><td bgcolor="palegreen">59 Magic</td></tr><tr><td bgcolor="palegreen">40 Mining</td></tr><tr><td bgcolor="palegreen">40 Smithing</td></tr></table>>];
+		17 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">137</td><td bgcolor="aquamarine">Fight Arena</td><td bgcolor="palegreen"></td></tr></table>>];
+		18 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">44</td><td bgcolor="aquamarine">Fishing Contest</td><td bgcolor="palegreen">10 Fishing</td></tr></table>>];
+		19 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Gertrude's Cat</td><td bgcolor="palegreen"></td></tr></table>>];
+		20 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Goblin Diplomacy</td><td bgcolor="palegreen"></td></tr></table>>];
+		21 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">13</td><td bgcolor="aquamarine">Hazeel Cult</td><td bgcolor="palegreen"></td></tr></table>>];
+		22 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">120</td><td bgcolor="aquamarine">Holy Grail</td><td bgcolor="palegreen">20 Attack</td></tr></table>>];
+		23 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">100</td><td bgcolor="aquamarine">Horror from the Deep</td><td bgcolor="palegreen">35 Agility</td></tr></table>>];
+		24 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Imp Catcher</td><td bgcolor="palegreen"></td></tr></table>>];
+		25 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">53</td><td bgcolor="aquamarine">Jungle Potion</td><td bgcolor="palegreen"></td></tr></table>>];
+		26 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">39</td><td bgcolor="aquamarine">Merlin's Crystal</td><td bgcolor="palegreen"></td></tr></table>>];
+		27 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Misthalin Mystery</td><td bgcolor="palegreen"></td></tr></table>>];
+		28 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">26</td><td bgcolor="aquamarine">Monk's Friend</td><td bgcolor="palegreen"></td></tr></table>>];
+		29 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">70</td><td bgcolor="aquamarine">Mountain Daughter</td><td bgcolor="palegreen">20 Agility</td></tr></table>>];
+		30 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Murder Mystery</td><td bgcolor="palegreen"></td></tr></table>>];
+		31 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">42</td><td bgcolor="aquamarine">Observatory Quest</td><td bgcolor="palegreen">10 Crafting</td></tr></table>>];
+		32 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">4</td><td bgcolor="aquamarine">Pirate's Treasure</td><td bgcolor="palegreen"></td></tr></table>>];
+		33 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Plague City</td><td bgcolor="palegreen"></td></tr></table>>];
+		34 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">26</td><td bgcolor="aquamarine">Prince Ali Rescue</td><td bgcolor="palegreen"></td></tr></table>>];
+		35 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">30</td><td bgcolor="aquamarine">Priest in Peril</td><td bgcolor="palegreen"></td></tr></table>>];
+		36 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Romeo and Juliet</td><td bgcolor="palegreen"></td></tr></table>>];
+		37 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Rune Mysteries</td><td bgcolor="palegreen"></td></tr></table>>];
+		38 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Sea Slug</td><td bgcolor="palegreen">30 Firemaking</td></tr></table>>];
+		39 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="3">40</td><td bgcolor="aquamarine" rowspan="3">Shades of Mort'ton</td><td bgcolor="palegreen">20 Crafting</td></tr><tr><td bgcolor="palegreen">5 Firemaking</td></tr><tr><td bgcolor="palegreen">15 Herblore</td></tr></table>>];
+		40 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Sheep Herder</td><td bgcolor="palegreen"></td></tr></table>>];
+		41 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Sheep Shearer</td><td bgcolor="palegreen"></td></tr></table>>];
+		42 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Shield of Arrav</td><td bgcolor="palegreen"></td></tr></table>>];
+		43 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="4">75</td><td bgcolor="aquamarine" rowspan="4">Spirits of the Elid</td><td bgcolor="palegreen">33 Magic</td></tr><tr><td bgcolor="palegreen">37 Mining</td></tr><tr><td bgcolor="palegreen">37 Ranged</td></tr><tr><td bgcolor="palegreen">37 Thieving</td></tr></table>>];
+		44 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">84</td><td bgcolor="aquamarine" rowspan="2">Temple of Ikov</td><td bgcolor="palegreen">40 Ranged</td></tr><tr><td bgcolor="palegreen">42 Thieving</td></tr></table>>];
+		45 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">The Corsair Curse</td><td bgcolor="palegreen"></td></tr></table>>];
+		46 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="3"></td><td bgcolor="aquamarine" rowspan="3">The Digsite</td><td bgcolor="palegreen">10 Agility</td></tr><tr><td bgcolor="palegreen">10 Herblore</td></tr><tr><td bgcolor="palegreen">25 Thieving</td></tr></table>>];
+		47 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">75</td><td bgcolor="aquamarine">The Feud</td><td bgcolor="palegreen">30 Thieving</td></tr></table>>];
+		48 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="3">69</td><td bgcolor="aquamarine" rowspan="3">The Fremennik Trials</td><td bgcolor="palegreen">40 Crafting</td></tr><tr><td bgcolor="palegreen">25 Fletching</td></tr><tr><td bgcolor="palegreen">40 Woodcutting</td></tr></table>>];
+		49 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="4"></td><td bgcolor="aquamarine" rowspan="4">The Giant Dwarf</td><td bgcolor="palegreen">12 Crafting</td></tr><tr><td bgcolor="palegreen">16 Firemaking</td></tr><tr><td bgcolor="palegreen">33 Magic</td></tr><tr><td bgcolor="palegreen">14 Thieving</td></tr></table>>];
+		50 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2"></td><td bgcolor="aquamarine" rowspan="2">The Golem</td><td bgcolor="palegreen">20 Crafting</td></tr><tr><td bgcolor="palegreen">25 Thieving</td></tr></table>>];
+		51 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">172</td><td bgcolor="aquamarine">The Grand Tree</td><td bgcolor="palegreen">25 Agility</td></tr></table>>];
+		52 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2"></td><td bgcolor="aquamarine" rowspan="2">The Hand in the Sand</td><td bgcolor="palegreen">49 Crafting</td></tr><tr><td bgcolor="palegreen">17 Thieving</td></tr></table>>];
+		53 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">57</td><td bgcolor="aquamarine">The Knight's Sword</td><td bgcolor="palegreen">10 Mining</td></tr></table>>];
+		54 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">101</td><td bgcolor="aquamarine" rowspan="2">The Lost City</td><td bgcolor="palegreen">31 Crafting</td></tr><tr><td bgcolor="palegreen">36 Woodcutting</td></tr></table>>];
+		55 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">13</td><td bgcolor="aquamarine">The Restless Ghost</td><td bgcolor="palegreen"></td></tr></table>>];
+		56 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">47</td><td bgcolor="aquamarine" rowspan="2">The Tourist Trap</td><td bgcolor="palegreen">10 Crafting</td></tr><tr><td bgcolor="palegreen">20 Smithing</td></tr></table>>];
+		57 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Tower of Life</td><td bgcolor="palegreen">10 Construction</td></tr></table>>];
+		58 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">112</td><td bgcolor="aquamarine">Tree Gnome Village</td><td bgcolor="palegreen"></td></tr></table>>];
+		59 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Tribal Totem</td><td bgcolor="palegreen">21 Thieving</td></tr></table>>];
+		60 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">34</td><td bgcolor="aquamarine">Vampire Slayer</td><td bgcolor="palegreen"></td></tr></table>>];
+		61 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">84</td><td bgcolor="aquamarine">Waterfall Quest</td><td bgcolor="palegreen"></td></tr></table>>];
+		62 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">53</td><td bgcolor="aquamarine">Witch's House</td><td bgcolor="palegreen"></td></tr></table>>];
+		63 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">57</td><td bgcolor="aquamarine">Witch's Potion</td><td bgcolor="palegreen">10 Mining</td></tr></table>>];
+		64 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="4"></td><td bgcolor="aquamarine" rowspan="4">Animal Magnetism</td><td bgcolor="palegreen">19 Crafting</td></tr><tr><td bgcolor="palegreen">30 Ranged</td></tr><tr><td bgcolor="palegreen">18 Slayer</td></tr><tr><td bgcolor="palegreen">35 Woodcutting</td></tr></table>>];
+		65 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">75</td><td bgcolor="aquamarine" rowspan="2">Between a Rock...</td><td bgcolor="palegreen">10 Crafting</td></tr><tr><td bgcolor="palegreen">20 Smithing</td></tr></table>>];
+		66 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">13</td><td bgcolor="aquamarine">Biohazard</td><td bgcolor="palegreen"></td></tr></table>>];
+		67 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">33</td><td bgcolor="aquamarine">Black Knight's Fortress</td><td bgcolor="palegreen">12 Quest Points</td></tr></table>>];
+		68 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Bone Voyage</td><td bgcolor="palegreen"></td></tr></table>>];
+		69 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">72</td><td bgcolor="aquamarine" rowspan="2">Creature of Fenkenstrain</td><td bgcolor="palegreen">20 Crafting</td></tr><tr><td bgcolor="palegreen">25 Thieving</td></tr></table>>];
+		70 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">83</td><td bgcolor="aquamarine">Dragon Slayer</td><td bgcolor="palegreen">32 Quest Points</td></tr></table>>];
+		71 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Eadgar's Ruse</td><td bgcolor="palegreen">31 Herblore</td></tr></table>>];
+		72 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">35</td><td bgcolor="aquamarine" rowspan="2">Elemental Workshop</td><td bgcolor="palegreen">20 Magic</td></tr><tr><td bgcolor="palegreen">30 Smithing</td></tr></table>>];
+		73 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="4"></td><td bgcolor="aquamarine" rowspan="4">Enlightened Journey</td><td bgcolor="palegreen">36 Crafting</td></tr><tr><td bgcolor="palegreen">30 Farming</td></tr><tr><td bgcolor="palegreen">20 Firemaking</td></tr><tr><td bgcolor="palegreen">20 Quest Points</td></tr></table>>];
+		74 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2"></td><td bgcolor="aquamarine" rowspan="2">Forgettable Tale</td><td bgcolor="palegreen">22 Cooking</td></tr><tr><td bgcolor="palegreen">17 Farming</td></tr></table>>];
+		75 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">32</td><td bgcolor="aquamarine" rowspan="2">Ghosts Ahoy</td><td bgcolor="palegreen">25 Agility</td></tr><tr><td bgcolor="palegreen">20 Cooking</td></tr></table>>];
+		76 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="5">138</td><td bgcolor="aquamarine" rowspan="5">Grim Tales</td><td bgcolor="palegreen">59 Agility</td></tr><tr><td bgcolor="palegreen">45 Farming</td></tr><tr><td bgcolor="palegreen">52 Herblore</td></tr><tr><td bgcolor="palegreen">58 Thieving</td></tr><tr><td bgcolor="palegreen">71 Woodcutting</td></tr></table>>];
+		77 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">95</td><td bgcolor="aquamarine" rowspan="2">Haunted Mine</td><td bgcolor="palegreen">15 Agility</td></tr><tr><td bgcolor="palegreen">35 Crafting</td></tr></table>>];
+		78 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">91</td><td bgcolor="aquamarine">Icthlarin's Little Helper</td><td bgcolor="palegreen"></td></tr></table>>];
+		79 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="3"></td><td bgcolor="aquamarine" rowspan="3">Making History</td><td bgcolor="palegreen">20 Crafting</td></tr><tr><td bgcolor="palegreen">40 Mining</td></tr><tr><td bgcolor="palegreen">40 Smithing</td></tr></table>>];
+		80 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">195</td><td bgcolor="aquamarine">Monkey Madness I</td><td bgcolor="palegreen"></td></tr></table>>];
+		81 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">30</td><td bgcolor="aquamarine">Nature Spirit</td><td bgcolor="palegreen"></td></tr></table>>];
+		82 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">100</td><td bgcolor="aquamarine" rowspan="2">Olaf's Quest</td><td bgcolor="palegreen">40 Firemaking</td></tr><tr><td bgcolor="palegreen">50 Woodcutting</td></tr></table>>];
+		83 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">27</td><td bgcolor="aquamarine" rowspan="2">Rag and Bone Man</td><td bgcolor="palegreen">20 Defense</td></tr><tr><td bgcolor="palegreen">40 Slayer</td></tr></table>>];
+		84 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Scorpion Catcher</td><td bgcolor="palegreen">31 Prayer</td></tr></table>>];
+		85 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">100</td><td bgcolor="aquamarine">Shadow of the Storm</td><td bgcolor="palegreen">30 Crafting</td></tr></table>>];
+		86 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="3">93</td><td bgcolor="aquamarine" rowspan="3">Shilo Village</td><td bgcolor="palegreen">32 Agility</td></tr><tr><td bgcolor="palegreen">20 Crafting</td></tr><tr><td bgcolor="palegreen">4 Smithing</td></tr></table>>];
+		87 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="3">53</td><td bgcolor="aquamarine" rowspan="3">Tai Bwo Wannai Trio</td><td bgcolor="palegreen">32 Agility</td></tr><tr><td bgcolor="palegreen">30 Cooking</td></tr><tr><td bgcolor="palegreen">5 Fishing</td></tr></table>>];
+		88 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="4"></td><td bgcolor="aquamarine" rowspan="4">Tears of Guthix</td><td bgcolor="palegreen">20 Crafting</td></tr><tr><td bgcolor="palegreen">49 Firemaking</td></tr><tr><td bgcolor="palegreen">20 Mining</td></tr><tr><td bgcolor="palegreen">43 Quest Points</td></tr></table>>];
+		89 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">36</td><td bgcolor="aquamarine">The Depths of Despair</td><td bgcolor="palegreen">18 Agility</td></tr></table>>];
+		90 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2"></td><td bgcolor="aquamarine" rowspan="2">The Eyes of Glouphrie</td><td bgcolor="palegreen">5 Construction</td></tr><tr><td bgcolor="palegreen">46 Magic</td></tr></table>>];
+		91 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="4"></td>122<td bgcolor="aquamarine" rowspan="4">The Fremennik Isles</td><td bgcolor="palegreen">40 Agility</td></tr><tr><td bgcolor="palegreen">20 Construction</td></tr><tr><td bgcolor="palegreen">46 Crafting</td></tr><tr><td bgcolor="palegreen">56 Woodcutting</td></tr></table>>];
+		92 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="3"></td><td bgcolor="aquamarine" rowspan="3">The Lost Tribe</td><td bgcolor="palegreen">13 Agility</td></tr><tr><td bgcolor="palegreen">17 Mining</td></tr><tr><td bgcolor="palegreen">13 Thieving</td></tr></table>>];
+		93 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">The Queen of Thieves</td><td bgcolor="palegreen">20 Thieving</td></tr></table>>];
+		94 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">113</td><td bgcolor="aquamarine">Troll Stronghold</td><td bgcolor="palegreen">15 Agility</td></tr></table>>];
+		95 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="5">68</td><td bgcolor="aquamarine" rowspan="5">Watchtower</td><td bgcolor="palegreen">25 Agility</td></tr><tr><td bgcolor="palegreen">14 Herblore</td></tr><tr><td bgcolor="palegreen">14 Magic</td></tr><tr><td bgcolor="palegreen">40 Mining</td></tr><tr><td bgcolor="palegreen">15 Thieving</td></tr></table>>];
+		96 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">47</td><td bgcolor="aquamarine" rowspan="2">What Lies Below</td><td bgcolor="palegreen">42 Mining</td></tr><tr><td bgcolor="palegreen">35 Runecrafting</td></tr></table>>];
+		97 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="4">111</td><td bgcolor="aquamarine" rowspan="4">Zogre Flesh Eaters</td><td bgcolor="palegreen">30 Fletching</td></tr><tr><td bgcolor="palegreen">8 Herblore</td></tr><tr><td bgcolor="palegreen">30 Ranged</td></tr><tr><td bgcolor="palegreen">4 Smithing</td></tr></table>>];
+		98 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">A Tail of Two Cats</td><td bgcolor="palegreen"></td></tr></table>>];
+		99 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">191</td><td bgcolor="aquamarine">Contact!</td><td bgcolor="palegreen"></td></tr></table>>];
+		100 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">50</td><td bgcolor="aquamarine" rowspan="2">Death to the Dorgeshuun</td><td bgcolor="palegreen">23 Agility</td></tr><tr><td bgcolor="palegreen">23 Thieving</td></tr></table>>];
+		101 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="4">174</td><td bgcolor="aquamarine" rowspan="4">Desert Treasure</td><td bgcolor="palegreen">50 Firemaking</td></tr><tr><td bgcolor="palegreen">50 Magic</td></tr><tr><td bgcolor="palegreen">10 Slayer</td></tr><tr><td bgcolor="palegreen">53 Thieving</td></tr></table>>];
+		102 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">111</td><td bgcolor="aquamarine">Fairytale I</td><td bgcolor="palegreen"></td></tr></table>>];
+		103 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Garden of Tranquility</td><td bgcolor="palegreen">25 Farming</td></tr></table>>];
+		104 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="5">111</td><td bgcolor="aquamarine" rowspan="5">Heroes' Quest</td><td bgcolor="palegreen">53 Cooking</td></tr><tr><td bgcolor="palegreen">53 Fishing</td></tr><tr><td bgcolor="palegreen">25 Herblore</td></tr><tr><td bgcolor="palegreen">50 Mining</td></tr><tr><td bgcolor="palegreen">55 Quest Points</td></tr></table>>];
+		105 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">97</td><td bgcolor="aquamarine">In Search of the Myreque</td><td bgcolor="palegreen"></td></tr></table>>];
+		106 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="7">111</td><td bgcolor="aquamarine" rowspan="7">Lunar Diplomacy</td><td bgcolor="palegreen">61 Crafting</td></tr><tr><td bgcolor="palegreen">40 Defence</td></tr><tr><td bgcolor="palegreen">49 Firemaking</td></tr><tr><td bgcolor="palegreen">5 Herblore</td></tr><tr><td bgcolor="palegreen">65 Magic</td></tr><tr><td bgcolor="palegreen">60 Mining</td></tr><tr><td bgcolor="palegreen">55 Woodcutting</td></tr></table>>];
+		107 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">172</td><td bgcolor="aquamarine" rowspan="2">My Arm's Big Adventure</td><td bgcolor="palegreen">20 Farming</td></tr><tr><td bgcolor="palegreen">10 Woodcutting</td></tr></table>>];
+		108 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="4">92</td><td bgcolor="aquamarine" rowspan="4">One Small Favour</td><td bgcolor="palegreen">36 Agility</td></tr><tr><td bgcolor="palegreen">25 Crafting</td></tr><tr><td bgcolor="palegreen">18 Herblore</td></tr><tr><td bgcolor="palegreen">30 Smithing</td></tr></table>>];
+		109 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">88</td><td bgcolor="aquamarine" rowspan="2">Rag and Bone Man II</td><td bgcolor="palegreen">40 Slayer</td></tr><tr><td bgcolor="palegreen">20 Defence</td></tr></table>>];
+		110 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Ratcatchers</td><td bgcolor="palegreen"></td></tr></table>>];
+		111 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">20</td><td bgcolor="aquamarine">Recruitment Drive</td><td bgcolor="palegreen"></td></tr></table>>];
+		112 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="5">150</td><td bgcolor="aquamarine" rowspan="5">Rum Deal</td><td bgcolor="palegreen">42 Crafting</td></tr><tr><td bgcolor="palegreen">40 Farming</td></tr><tr><td bgcolor="palegreen">50 Fishing</td></tr><tr><td bgcolor="palegreen">47 Prayer</td></tr><tr><td bgcolor="palegreen">42 Slayer</td></tr></table>>];
+		113 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">113</td><td bgcolor="aquamarine">Troll Romance</td><td bgcolor="palegreen">28 Agility</td></tr></table>>];
+		114 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">91</td><td bgcolor="aquamarine">Underground Pass</td><td bgcolor="palegreen"></td></tr></table>>];
+		115 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">64</td><td bgcolor="aquamarine" rowspan="2">Another Slice of H.A.M.</td><td bgcolor="palegreen">15 Attack</td></tr><tr><td bgcolor="palegreen">15 Prayer</td></tr></table>>];
+		116 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="4"></td><td bgcolor="aquamarine" rowspan="4">Cabin Fever</td><td bgcolor="palegreen">42 Agility</td></tr><tr><td bgcolor="palegreen">45 Crafting</td></tr><tr><td bgcolor="palegreen">40 Ranged</td></tr><tr><td bgcolor="palegreen">50 Smithing</td></tr></table>>];
+		117 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">343</td><td bgcolor="aquamarine">Dream Mentor</td><td bgcolor="palegreen">85 Combat</td></tr></table>>];
+		118 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="3">145</td><td bgcolor="aquamarine" rowspan="3">Fairytale II</td><td bgcolor="palegreen">49 Farming</td></tr><tr><td bgcolor="palegreen">57 Herblore</td></tr><tr><td bgcolor="palegreen">40 Thieving</td></tr></table>>];
+		119 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="3">75</td><td bgcolor="aquamarine" rowspan="3">In Aid of the Myreque</td><td bgcolor="palegreen">25 Crafting</td></tr><tr><td bgcolor="palegreen">7 Magic</td></tr><tr><td bgcolor="palegreen">15 Mining</td></tr></table>>];
+		120 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2"></td><td bgcolor="aquamarine" rowspan="2">King's Ransom</td><td bgcolor="palegreen">65 Defence</td></tr><tr><td bgcolor="palegreen">45 Magic</td></tr></table>>];
+		121 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="10">187</td><td bgcolor="aquamarine" rowspan="10">Legends' Quest</td><td bgcolor="palegreen">50 Agility</td></tr><tr><td bgcolor="palegreen">50 Crafting</td></tr><tr><td bgcolor="palegreen">56 Magic</td></tr><tr><td bgcolor="palegreen">52 Mining</td></tr><tr><td bgcolor="palegreen">42 Prayer</td></tr><tr><td bgcolor="palegreen">50 Smithing</td></tr><tr><td bgcolor="palegreen">50 Strength</td></tr><tr><td bgcolor="palegreen">50 Thieving</td></tr><tr><td bgcolor="palegreen">50 Woodcutting</td></tr><tr><td bgcolor="palegreen">107 Quest Points</td></tr></table>>];
+		122 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="14">227</td><td bgcolor="aquamarine" rowspan="14">Recipe for Disaster</td><td bgcolor="palegreen">48 Agility</td></tr><tr><td bgcolor="palegreen">70 Cooking</td></tr><tr><td bgcolor="palegreen">40 Crafting</td></tr><tr><td bgcolor="palegreen">50 Firemaking</td></tr><tr><td bgcolor="palegreen">53 Fishing</td></tr><tr><td bgcolor="palegreen">5 Fletching</td></tr><tr><td bgcolor="palegreen">25 Herblore</td></tr><tr><td bgcolor="palegreen">59 Magic</td></tr><tr><td bgcolor="palegreen">50 Mining</td></tr><tr><td bgcolor="palegreen">30 Ranged</td></tr><tr><td bgcolor="palegreen">10 Slayer</td></tr><tr><td bgcolor="palegreen">53 Thieving</td></tr><tr><td bgcolor="palegreen">36 Woodcutting</td></tr><tr><td bgcolor="palegreen">175 Quest Points</td></tr></table>>];
+		123 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">110</td><td bgcolor="aquamarine">Regicide</td><td bgcolor="palegreen">56 Agility</td></tr></table>>];
+		124 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="7">170</td><td bgcolor="aquamarine" rowspan="7">Swan Song</td><td bgcolor="palegreen">62 Cooking</td></tr><tr><td bgcolor="palegreen">40 Crafting</td></tr><tr><td bgcolor="palegreen">42 Firemaking</td></tr><tr><td bgcolor="palegreen">62 Fishing</td></tr><tr><td bgcolor="palegreen">66 Magic</td></tr><tr><td bgcolor="palegreen">45 Smithing</td></tr><tr><td bgcolor="palegreen">100 Quest Points</td></tr></table>>];
+		125 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato"></td><td bgcolor="aquamarine">Throne of Miscellania</td><td bgcolor="palegreen"></td></tr></table>>];
+		126 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">33</td><td bgcolor="aquamarine">Wanted!</td><td bgcolor="palegreen">32 Quest Points</td></tr></table>>];
+		127 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="7">169</td><td bgcolor="aquamarine" rowspan="7">Darkness of Hallowvale</td><td bgcolor="palegreen">26 Agility</td></tr><tr><td bgcolor="palegreen">5 Construction</td></tr><tr><td bgcolor="palegreen">32 Crafting</td></tr><tr><td bgcolor="palegreen">33 Magic</td></tr><tr><td bgcolor="palegreen">20 Mining</td></tr><tr><td bgcolor="palegreen">40 Strength</td></tr><tr><td bgcolor="palegreen">22 Thieving</td></tr></table>>];
+		128 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="3"></td><td bgcolor="aquamarine" rowspan="3">Devious Minds</td><td bgcolor="palegreen">50 Fletching</td></tr><tr><td bgcolor="palegreen">50 Runecrafting</td></tr><tr><td bgcolor="palegreen">65 Smithing</td></tr></table>>];
+		129 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="9">608</td><td bgcolor="aquamarine" rowspan="9">Dragon Slayer II</td><td bgcolor="palegreen">75 Magic</td></tr><tr><td bgcolor="palegreen">70 Smithing</td></tr><tr><td bgcolor="palegreen">68 Mining</td></tr><tr><td bgcolor="palegreen">62 Crafting</td></tr><tr><td bgcolor="palegreen">60 Agility</td></tr><tr><td bgcolor="palegreen">60 Thieving</td></tr><tr><td bgcolor="palegreen">50 Construction</td></tr><tr><td bgcolor="palegreen">50 Hitpoints</td></tr><tr><td bgcolor="palegreen">200 Quest Points</td></tr></table>>];
+		130 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="6">378</td><td bgcolor="aquamarine" rowspan="6">Monkey Madness II</td><td bgcolor="palegreen">69 Slayer</td></tr><tr><td bgcolor="palegreen">70 Crafting</td></tr><tr><td bgcolor="palegreen">60 Hunter</td></tr><tr><td bgcolor="palegreen">55 Agility</td></tr><tr><td bgcolor="palegreen">55 Thieving</td></tr><tr><td bgcolor="palegreen">60 Firemaking</td></tr></table>>];
+		131 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato">84</td><td bgcolor="aquamarine">Roving Elves</td><td bgcolor="palegreen"></td></tr></table>>];
+		132 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">149</td><td bgcolor="aquamarine" rowspan="2">Royal Trouble</td><td bgcolor="palegreen">40 Agility</td></tr><tr><td bgcolor="palegreen">40 Slayer</td></tr></table>>];
+		133 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="3">190</td><td bgcolor="aquamarine" rowspan="3">The Great Brain Robbery</td><td bgcolor="palegreen">30 Construction</td></tr><tr><td bgcolor="palegreen">15 Crafting</td></tr><tr><td bgcolor="palegreen">50 Prayer</td></tr></table>>];
+		134 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="4">62</td><td bgcolor="aquamarine" rowspan="4">The Slug Menace</td><td bgcolor="palegreen">30 Crafting</td></tr><tr><td bgcolor="palegreen">30 Runecrafting</td></tr><tr><td bgcolor="palegreen">30 Slayer</td></tr><tr><td bgcolor="palegreen">30 Thieving</td></tr></table>>];
+		135 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">11</td><td bgcolor="aquamarine" rowspan="2">Mourning's End Part I</td><td bgcolor="palegreen">60 Ranged</td></tr><tr><td bgcolor="palegreen">50 Thieving</td></tr></table>>];
+		136 [label=<<table border="0" cellborder="1"><tr><td bgcolor="tomato" rowspan="2">73</td><td bgcolor="aquamarine" rowspan="2">Mourning's End Part II</td><td bgcolor="palegreen">60 Ranged</td></tr><tr><td bgcolor="palegreen">50 Thieving</td></tr></table>>];
+	}
+	subgraph cluster_tier0 {
+		rank=same;
+		style=filled;
+		color=green4;
+		labelloc=t;
+		label="Tier 0";
+		"Tier 0";
+		M1;M12;
+		1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;
+		34;35;36;37;38;39;40;41;42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61;62;63;
+	}
+	subgraph cluster_tier1 {
+		rank=same;
+		style=filled;
+		color=blue4;
+		labelloc=t;
+		label="Tier 1";
+		"Tier 1";
+		64;65;66;67;68;69;70;71;72;73;74;75;76;77;78;79;80;81;82;83;84;85;86;87;88;89;90;91;92;93;94;95;96;97;
+	}
+	subgraph cluster_tier2 {
+		rank=same;
+		style=filled;
+		color=purple4;
+		labelloc=t;
+		label="Tier 2";
+		"Tier 2";
+		98;99;100;101;102;103;104;105;106;107;108;109;110;111;112;113;114;
+	}
+	subgraph cluster_tier3 {
+		rank=same;
+		style=filled;
+		color=red4;
+		labelloc=t;
+		label="Tier 3";
+		"Tier 3";
+		115;116;117;118;119;120;121;122;123;124;125;126;
+	}
+	subgraph cluster_tier4 {
+		rank=same;
+		style=filled;
+		color=orange4;
+		labelloc=t;
+		label="Tier 4";
+		"Tier 4";
+		127;128;129;130;131;132;133;134;
+	}
+	subgraph cluster_tier5 {
+		rank=same;
+		style=filled;
+		color=white;
+		labelloc=t;
+		label="Tier 5";
+		"Tier 5";
+		135;
+	}
+	subgraph cluster_tier6 {
+		rank=same;
+		style=filled;
+		color=white;
+		labelloc=t;
+		label="Tier 6";
+		"Tier 6";
+		136;
+	}
+	edge [color=green]; // 1-63
+	55,15,35->64;18,11->65;33->66;46->68;35,55->69;10->71;13->72;49,18->74;35,55->75;62->76;35->77;19->78;35,55->79;
+	51,58->80;35,55->81;48->82;M12,48,23->83;M1->84;8,50->85 25->86;25->87;3->89;51->90;48->91;20,37->92;3->93;7->94;
+	10->95;37->96;25,2->97;19,32->99;46,56,44,35,61->101;54->102;42,54,26->104;54,48,37->106;47,25->107;37,10->108;
+	48,23,61,M12->109;10->111;7->113;46,49->115;37->116;26,22,30->120;16,61->121;6,18,20,2,8,30,35,55,62,19,54,23->122;
+	48->125;37,35->126;9->128;3->129;61->131;38->134;2,40->135;
+	edge [color=blue]; // 64-97
+	78->98;78->99;92->100;94->101;81->102;69->103;70->104;81->105;86->106;71->107;86->108;83,78->109;78->110;
+	97,69->109 [style=dotted];67->111;97->112;94->113;66->114;71->117;81->119;67->120;86->121;66,81,85,80->122;92->126;
+	94->128;64,75,68->129;73,90,94,95,80->130;69->133;
+	edge [color=purple]; // 98-114
+	100->115;112->116;106->117;102->118;105->119;108->120;104,114->121;101->122;114->123;108,103->124;104->125;111->126;
+	111->128;98->129;112->133;
+	edge [color=red]; // 115-126
+	119->127;126->128;121,117->129;122->130;123->131;125->132;116->133;122->133 [style=dotted];126->134;
+	edge [color=orange]; // 127-134
+	131->135;
+	edge [color=yellow]; // 135
+	135->136
+}
